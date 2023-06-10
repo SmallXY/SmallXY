@@ -7,11 +7,14 @@
 [![qwq](https://img.shields.io/badge/QQ频道粉丝-搜索玄易的超大窝-orange)]()
 
 
-
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=SmallXY&show_icons=true&locale=cn&count_private=true&disable_animations=true&shide_title=false&icon_color=8b658b&ring_color=8b658b&theme=dark" />
-
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=SmallXY&show_icons=true&locale=cn&count_private=true&disable_animations=true&shide_title=false&icon_color=8b658b&ring_color=8b658b&theme=dark" />
 
 
+:>
+:<
+:(
+:)
+让我开心会好么？
 
 
 ![banner](https://github.com/SmallXY/SmallXY/blob/main/githubbanner.png)
