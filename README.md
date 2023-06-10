@@ -9,4 +9,5 @@
 [![qwq](https://img.shields.io/badge/QQ频道粉丝-搜索玄易的超大窝-orange)]()
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SmallXY)](https://github.com/anuraghazra/github-readme-stats)
+
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=SmallXY&show_icons=true&locale=cn&count_private=true&disable_animations=true&shide_title=false&icon_color=8b658b&ring_color=8b658b&theme=dark" />
