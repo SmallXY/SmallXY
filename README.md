@@ -1,6 +1,5 @@
 # ← His Crazy Developer！！
 
-<img align="right" width="300" src="https://github.com/SmallXY/SmallXY/assets/xxxxx/xxxx-xxxx" alt="成就已解锁"/>
 
 ### 你好哇，我是[SmallXY](https://github.com/SmallXY) 👾
 
