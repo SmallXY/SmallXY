@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T04:54:10Z",
+  "updated_at": "2026-11-14T09:15:32Z",
   "account_created_at": "2020-03-17T08:05:35Z",
   "public_organizations": [
     "CyanBukkit",
@@ -339,7 +339,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2023-01-05T09:02:08Z",
-      "pushed_at": "2026-11-14T04:53:40Z",
+      "pushed_at": "2026-11-14T09:15:04Z",
       "language": "Python",
       "scope": "personal"
     },
@@ -748,9 +748,9 @@
       }
     },
     {
-      "full_name": "CyanBukkit/AIBukkitProject",
-      "html_url": "https://github.com/CyanBukkit/AIBukkitProject",
-      "description": null,
+      "full_name": "CyanBukkit/BukkitGenesis",
+      "html_url": "https://github.com/CyanBukkit/BukkitGenesis",
+      "description": "An early attempt (Oct 2024) at LLM-driven Bukkit plugin generation — planner + developer agents, before AI IDEs went mainstream.",
       "stargazers_count": 1,
       "fork": false,
       "archived": true,
@@ -803,48 +803,6 @@
       "contribution": {
         "commits": 2,
         "top_commits": 2,
-        "is_lead": true,
-        "tied": false,
-        "leaders": [
-          "SmallXY"
-        ]
-      }
-    },
-    {
-      "full_name": "CyanBukkit/CyanShop_Backend",
-      "html_url": "https://github.com/CyanBukkit/CyanShop_Backend",
-      "description": null,
-      "stargazers_count": 0,
-      "fork": false,
-      "archived": true,
-      "created_at": "2025-02-02T08:08:25Z",
-      "pushed_at": "2025-10-19T07:26:59Z",
-      "language": "Kotlin",
-      "scope": "organization",
-      "contribution": {
-        "commits": 2,
-        "top_commits": 2,
-        "is_lead": true,
-        "tied": false,
-        "leaders": [
-          "SmallXY"
-        ]
-      }
-    },
-    {
-      "full_name": "CyanBukkit/CyanShop_Frontend",
-      "html_url": "https://github.com/CyanBukkit/CyanShop_Frontend",
-      "description": null,
-      "stargazers_count": 0,
-      "fork": false,
-      "archived": false,
-      "created_at": "2025-02-02T08:13:46Z",
-      "pushed_at": "2025-03-10T04:19:53Z",
-      "language": "Vue",
-      "scope": "organization",
-      "contribution": {
-        "commits": 3,
-        "top_commits": 3,
         "is_lead": true,
         "tied": false,
         "leaders": [
@@ -979,27 +937,6 @@
       }
     },
     {
-      "full_name": "CyanBukkit/CyanBukkitOfficial",
-      "html_url": "https://github.com/CyanBukkit/CyanBukkitOfficial",
-      "description": "逐步完善的介绍固网",
-      "stargazers_count": 0,
-      "fork": false,
-      "archived": false,
-      "created_at": "2025-03-17T14:30:55Z",
-      "pushed_at": "2025-08-25T09:25:28Z",
-      "language": "Vue",
-      "scope": "organization",
-      "contribution": {
-        "commits": 6,
-        "top_commits": 6,
-        "is_lead": true,
-        "tied": false,
-        "leaders": [
-          "SmallXY"
-        ]
-      }
-    },
-    {
       "full_name": "CyanBukkit/PriceTemplete",
       "html_url": "https://github.com/CyanBukkit/PriceTemplete",
       "description": "适合中国宝宝体制的Minecraft服务器插件/服务端定制价格模板（会根据市场进行调节）",
@@ -1021,8 +958,8 @@
       }
     },
     {
-      "full_name": "CyanBukkit/FuckFabric",
-      "html_url": "https://github.com/CyanBukkit/FuckFabric",
+      "full_name": "CyanBukkit/CyanFabricTemplate",
+      "html_url": "https://github.com/CyanBukkit/CyanFabricTemplate",
       "description": "当众 操 Fabric Mod 并制作成 开发模版",
       "stargazers_count": 0,
       "fork": false,
@@ -1101,27 +1038,6 @@
         "tied": false,
         "leaders": [
           "SmallXY"
-        ]
-      }
-    },
-    {
-      "full_name": "CyanBukkit/Cyanbukkit_api_microsoft",
-      "html_url": "https://github.com/CyanBukkit/Cyanbukkit_api_microsoft",
-      "description": "一个使用Gradle构建的Kotlin项目",
-      "stargazers_count": 0,
-      "fork": false,
-      "archived": false,
-      "created_at": "2025-06-21T17:38:44Z",
-      "pushed_at": "2025-06-21T17:53:17Z",
-      "language": "Kotlin",
-      "scope": "organization",
-      "contribution": {
-        "commits": 0,
-        "top_commits": 2,
-        "is_lead": false,
-        "tied": false,
-        "leaders": [
-          "BigLantern"
         ]
       }
     },
@@ -1257,7 +1173,7 @@
       "description": "千牛CLI 智能客服 玩法",
       "stargazers_count": 5,
       "fork": false,
-      "archived": false,
+      "archived": true,
       "created_at": "2026-05-14T12:51:10Z",
       "pushed_at": "2026-05-26T12:49:25Z",
       "language": "TypeScript",
@@ -1720,11 +1636,6 @@
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/.github/contributors"
     },
-    "CyanBukkit/AIBukkitProject": {
-      "commit": "https://github.com/CyanBukkit/AIBukkitProject/commit/9de3d55493b781f9303478e78405f836969b556d",
-      "pr": null,
-      "contributors": "https://api.github.com/repos/CyanBukkit/AIBukkitProject/contributors"
-    },
     "CyanBukkit/AVMWandMod": {
       "commit": "https://github.com/CyanBukkit/AVMWandMod/commit/37790603090b0567e2b9464977a36dc3be0eebee",
       "pr": null,
@@ -1739,6 +1650,11 @@
       "commit": "https://github.com/CyanBukkit/AreYouDie/commit/865e12eac9f943287b50357c95c5cfd1dede60ec",
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/AreYouDie/contributors"
+    },
+    "CyanBukkit/BukkitGenesis": {
+      "commit": "https://github.com/CyanBukkit/BukkitGenesis/commit/9de3d55493b781f9303478e78405f836969b556d",
+      "pr": null,
+      "contributors": "https://api.github.com/repos/CyanBukkit/BukkitGenesis/contributors"
     },
     "CyanBukkit/BungeeRejoin": {
       "commit": "https://github.com/CyanBukkit/BungeeRejoin/commit/7d0762747b9545958fa62b5b20b40a80936714b5",
@@ -1775,15 +1691,15 @@
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/CyanBukkit-MCP/contributors"
     },
-    "CyanBukkit/CyanBukkitOfficial": {
-      "commit": "https://github.com/CyanBukkit/CyanBukkitOfficial/commit/83ae6cd689ac81ee88af8a38146bb407cfacbb30",
-      "pr": null,
-      "contributors": "https://api.github.com/repos/CyanBukkit/CyanBukkitOfficial/contributors"
-    },
     "CyanBukkit/CyanChunkOreChange": {
       "commit": "https://github.com/CyanBukkit/CyanChunkOreChange/commit/1e30f7634b819814e249ec07faef4f15431ae365",
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/CyanChunkOreChange/contributors"
+    },
+    "CyanBukkit/CyanFabricTemplate": {
+      "commit": "https://github.com/CyanBukkit/CyanFabricTemplate/commit/327fabb80481cc4eb0ae189e3826469c92f25a91",
+      "pr": null,
+      "contributors": "https://api.github.com/repos/CyanBukkit/CyanFabricTemplate/contributors"
     },
     "CyanBukkit/CyanFastBuilder": {
       "commit": "https://github.com/CyanBukkit/CyanFastBuilder/commit/3fbf71270549561504f5c2b0e26dd5691844a1ba",
@@ -1830,16 +1746,6 @@
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/CyanPractice/contributors"
     },
-    "CyanBukkit/CyanShop_Backend": {
-      "commit": "https://github.com/CyanBukkit/CyanShop_Backend/commit/8702aaa1fa4ee31ef7eec07b21cca58a70de23fa",
-      "pr": null,
-      "contributors": "https://api.github.com/repos/CyanBukkit/CyanShop_Backend/contributors"
-    },
-    "CyanBukkit/CyanShop_Frontend": {
-      "commit": "https://github.com/CyanBukkit/CyanShop_Frontend/commit/48aeaa9c3da1b3cda6a8592c0f161314042360fd",
-      "pr": "https://github.com/CyanBukkit/CyanShop_Frontend/pull/1",
-      "contributors": "https://api.github.com/repos/CyanBukkit/CyanShop_Frontend/contributors"
-    },
     "CyanBukkit/CyanSpigotDraw": {
       "commit": "https://github.com/CyanBukkit/CyanSpigotDraw/commit/94553d06664ad430e35ae8b767d02301de66031a",
       "pr": null,
@@ -1874,11 +1780,6 @@
       "commit": "https://github.com/CyanBukkit/ForgeBukkitServerDownload/commit/bf9f8e0b919de9df6ceadd89c6e34ae8778fc2c7",
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/ForgeBukkitServerDownload/contributors"
-    },
-    "CyanBukkit/FuckFabric": {
-      "commit": "https://github.com/CyanBukkit/FuckFabric/commit/327fabb80481cc4eb0ae189e3826469c92f25a91",
-      "pr": null,
-      "contributors": "https://api.github.com/repos/CyanBukkit/FuckFabric/contributors"
     },
     "CyanBukkit/HypixelSpeedBuilders": {
       "commit": "https://github.com/CyanBukkit/HypixelSpeedBuilders/commit/19ce8ab34a43777af7bf32a7f33f1598a7a9dcc8",
@@ -2037,7 +1938,7 @@
     }
   },
   "search_totals": {
-    "external_indexed_commits": 375,
-    "external_public_prs": 3
+    "external_indexed_commits": 364,
+    "external_public_prs": 2
   }
 }

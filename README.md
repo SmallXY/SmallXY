@@ -27,10 +27,10 @@
 <!-- Generated from public GitHub API data. Do not edit this section by hand. -->
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/stats-mobile.svg">
-  <img src="assets/generated/stats.svg" width="100%" alt="个人非 Fork 仓库：11；参与外部仓库：64；主要贡献组织项目：59；作品获星：33">
+  <img src="assets/generated/stats.svg" width="100%" alt="个人非 Fork 仓库：11；参与外部仓库：61；主要贡献组织项目：56；作品获星：33">
 </picture>
 
-<sub>数据更新于 2026-11-14 04:54:10 UTC · 仅公开数据 · [统计口径](docs/profile.md#统计口径)</sub>
+<sub>数据更新于 2026-11-14 09:15:32 UTC · 仅公开数据 · [统计口径](docs/profile.md#统计口径)</sub>
 
 ## 01 / 被星光选中的作品
 
@@ -38,9 +38,9 @@
 
 <p align="center">
 <a href="https://github.com/SmallXY/purpur-config-cnnotes"><img src="assets/generated/project-1.svg" width="420" alt="SmallXY/purpur-config-cnnotes · 9 stars"></a>
-<a href="https://github.com/CyanBukkit/qianniu-cli-macos"><img src="assets/generated/project-2.svg" width="420" alt="CyanBukkit/qianniu-cli-macos · 5 stars"></a>
-<a href="https://github.com/CyanBukkit/PriceTemplete"><img src="assets/generated/project-3.svg" width="420" alt="CyanBukkit/PriceTemplete · 4 stars"></a>
-<a href="https://github.com/CyanBukkit/AVMWandMod"><img src="assets/generated/project-4.svg" width="420" alt="CyanBukkit/AVMWandMod · 4 stars"></a>
+<a href="https://github.com/CyanBukkit/PriceTemplete"><img src="assets/generated/project-2.svg" width="420" alt="CyanBukkit/PriceTemplete · 4 stars"></a>
+<a href="https://github.com/CyanBukkit/AVMWandMod"><img src="assets/generated/project-3.svg" width="420" alt="CyanBukkit/AVMWandMod · 4 stars"></a>
+<a href="https://github.com/CyanBukkit/CyanTemplete4TraeAI"><img src="assets/generated/project-4.svg" width="420" alt="CyanBukkit/CyanTemplete4TraeAI · 1 stars"></a>
 </p>
 
 ## 02 / 最近种下的想法
@@ -72,7 +72,7 @@
 | [CyanBukkit/CyanMurderMystery](https://github.com/CyanBukkit/CyanMurderMystery) | 27 / 27 | 0 | 2025-07-19 |
 | [CyanBukkit/HypixelSpeedBuilders](https://github.com/CyanBukkit/HypixelSpeedBuilders) | 21 / 21 | 0 | 2025-05-14 |
 | [CyanBukkit/CC-Next](https://github.com/CyanBukkit/CC-Next) · 已归档 | 19 / 19 | 1 | 2026-07-08 |
-| [CyanBukkit/qianniu-cli-macos](https://github.com/CyanBukkit/qianniu-cli-macos) | 18 / 18 | 5 | 2026-05-14 |
+| [CyanBukkit/qianniu-cli-macos](https://github.com/CyanBukkit/qianniu-cli-macos) · 已归档 | 18 / 18 | 5 | 2026-05-14 |
 | [CyanBukkit/.github](https://github.com/CyanBukkit/.github) | 13 / 13 | 1 | 2025-02-15 |
 | [OpenMCSMG/SiModule-BuildAndPlace](https://github.com/OpenMCSMG/SiModule-BuildAndPlace) | 13 / 13 | 0 | 2024-05-07 |
 | [CyanBukkit/CyanMenu](https://github.com/CyanBukkit/CyanMenu) | 11 / 11 | 1 | 2025-03-10 |
@@ -86,7 +86,6 @@
 | [OpenMCSMG/SiModule-PlantSugarbeet](https://github.com/OpenMCSMG/SiModule-PlantSugarbeet) | 7 / 7 | 0 | 2024-05-07 |
 | [CyanBukkit/AVMWandMod](https://github.com/CyanBukkit/AVMWandMod) | 6 / 6 | 4 | 2022-12-29 |
 | [CyanBukkit/BungeeRejoin](https://github.com/CyanBukkit/BungeeRejoin) | 6 / 6 | 1 | 2023-06-10 |
-| [CyanBukkit/CyanBukkitOfficial](https://github.com/CyanBukkit/CyanBukkitOfficial) | 6 / 6 | 0 | 2025-03-17 |
 | [OpenMCSMG/SiModule-Templete](https://github.com/OpenMCSMG/SiModule-Templete) | 6 / 6 | 1 | 2024-05-07 |
 | [CyanBukkit/CyanChunkOreChange](https://github.com/CyanBukkit/CyanChunkOreChange) | 5 / 5 | 0 | 2025-03-10 |
 | [CyanBukkit/CyanFastBuilder](https://github.com/CyanBukkit/CyanFastBuilder) · 已归档 | 5 / 5 | 0 | 2024-10-20 |
@@ -102,15 +101,13 @@
 | [CyanBukkit/Allfools](https://github.com/CyanBukkit/Allfools) | 3 / 3 | 0 | 2022-04-01 |
 | [CyanBukkit/CyanBukkit-MCP](https://github.com/CyanBukkit/CyanBukkit-MCP) | 3 / 3 | 0 | 2026-05-26 |
 | [CyanBukkit/CyanInvite](https://github.com/CyanBukkit/CyanInvite) | 3 / 3 | 0 | 2025-03-10 |
-| [CyanBukkit/CyanShop&#95;Frontend](https://github.com/CyanBukkit/CyanShop_Frontend) | 3 / 3 | 0 | 2025-02-02 |
 | [CyanBukkit/CyanSpigotDraw](https://github.com/CyanBukkit/CyanSpigotDraw) | 3 / 3 | 0 | 2025-05-15 |
 | [OpenMCSMG/SiModule-AllMusicAddon](https://github.com/OpenMCSMG/SiModule-AllMusicAddon) | 3 / 3 | 0 | 2024-05-14 |
-| [CyanBukkit/AIBukkitProject](https://github.com/CyanBukkit/AIBukkitProject) · 已归档 | 2 / 2 | 1 | 2024-10-12 |
 | [CyanBukkit/AreYouDie](https://github.com/CyanBukkit/AreYouDie) | 2 / 2 | 0 | 2026-01-12 |
+| [CyanBukkit/BukkitGenesis](https://github.com/CyanBukkit/BukkitGenesis) · 已归档 | 2 / 2 | 1 | 2024-10-12 |
 | [CyanBukkit/Bw1058-RushMode](https://github.com/CyanBukkit/Bw1058-RushMode) | 2 / 2 | 0 | 2023-04-15 |
 | [CyanBukkit/CyanAnnounce](https://github.com/CyanBukkit/CyanAnnounce) | 2 / 2 | 0 | 2025-03-07 |
 | [CyanBukkit/CyanPoints](https://github.com/CyanBukkit/CyanPoints) | 2 / 2 | 0 | 2024-12-26 |
-| [CyanBukkit/CyanShop&#95;Backend](https://github.com/CyanBukkit/CyanShop_Backend) · 已归档 | 2 / 2 | 0 | 2025-02-02 |
 | [CyanBukkit/Data2MySQL](https://github.com/CyanBukkit/Data2MySQL) | 2 / 2 | 0 | 2023-06-29 |
 | [CyanBukkit/DrawEvent](https://github.com/CyanBukkit/DrawEvent) | 2 / 2 | 0 | 2023-04-15 |
 | [CyanBukkit/PicoXR-Doc-MCP](https://github.com/CyanBukkit/PicoXR-Doc-MCP) | 2 / 2 | 0 | 2026-05-31 |
@@ -118,11 +115,11 @@
 | [OpenMCSMG/SiModule-SoundPack](https://github.com/OpenMCSMG/SiModule-SoundPack) | 2 / 2 | 0 | 2024-07-08 |
 | [CyanBukkit/Codex-CTX-Guard](https://github.com/CyanBukkit/Codex-CTX-Guard) | 1 / 1 | 0 | 2026-10-08 |
 | [CyanBukkit/CustomerBedWars](https://github.com/CyanBukkit/CustomerBedWars) | 1 / 1 | 0 | 2026-05-30 |
+| [CyanBukkit/CyanFabricTemplate](https://github.com/CyanBukkit/CyanFabricTemplate) | 1 / 1 | 0 | 2025-04-12 |
 | [CyanBukkit/CyanItem](https://github.com/CyanBukkit/CyanItem) | 1 / 1 | 0 | 2025-07-19 |
 | [CyanBukkit/CyanItemEditor](https://github.com/CyanBukkit/CyanItemEditor) | 1 / 1 | 0 | 2025-07-19 |
 | [CyanBukkit/FastManagerWebSite4Linux](https://github.com/CyanBukkit/FastManagerWebSite4Linux) | 1 / 1 | 0 | 2026-06-15 |
 | [CyanBukkit/ForgeBukkitServerDownload](https://github.com/CyanBukkit/ForgeBukkitServerDownload) | 1 / 1 | 0 | 2023-11-21 |
-| [CyanBukkit/FuckFabric](https://github.com/CyanBukkit/FuckFabric) | 1 / 1 | 0 | 2025-04-12 |
 | [CyanBukkit/Instancebed](https://github.com/CyanBukkit/Instancebed) | 1 / 1 | 0 | 2022-02-04 |
 | [CyanBukkit/LimitTNT](https://github.com/CyanBukkit/LimitTNT) | 1 / 1 | 0 | 2023-06-29 |
 | [CyanBukkit/PluginCommand](https://github.com/CyanBukkit/PluginCommand) | 1 / 1 | 0 | 2023-01-12 |
@@ -136,10 +133,10 @@
 按公开默认分支 Commit、公开 PR 与公开组织 Contributors 去重；不含个人名下仓库，也不是 GitHub 全量贡献图。PR 记录不等于已合并。
 
 - [CyanBukkit/.github](https://github.com/CyanBukkit/.github) — [Commit](https://github.com/CyanBukkit/.github/commit/099e0a0e739474c360170610e456c9bc92d5fc28) / [Contributors](https://api.github.com/repos/CyanBukkit/.github/contributors)
-- [CyanBukkit/AIBukkitProject](https://github.com/CyanBukkit/AIBukkitProject) — [Commit](https://github.com/CyanBukkit/AIBukkitProject/commit/9de3d55493b781f9303478e78405f836969b556d) / [Contributors](https://api.github.com/repos/CyanBukkit/AIBukkitProject/contributors)
 - [CyanBukkit/AVMWandMod](https://github.com/CyanBukkit/AVMWandMod) — [Commit](https://github.com/CyanBukkit/AVMWandMod/commit/37790603090b0567e2b9464977a36dc3be0eebee) / [Contributors](https://api.github.com/repos/CyanBukkit/AVMWandMod/contributors)
 - [CyanBukkit/Allfools](https://github.com/CyanBukkit/Allfools) — [Commit](https://github.com/CyanBukkit/Allfools/commit/c6cf74710084fef22022b12afd2ed89dc5224c6a) / [Contributors](https://api.github.com/repos/CyanBukkit/Allfools/contributors)
 - [CyanBukkit/AreYouDie](https://github.com/CyanBukkit/AreYouDie) — [Commit](https://github.com/CyanBukkit/AreYouDie/commit/865e12eac9f943287b50357c95c5cfd1dede60ec) / [Contributors](https://api.github.com/repos/CyanBukkit/AreYouDie/contributors)
+- [CyanBukkit/BukkitGenesis](https://github.com/CyanBukkit/BukkitGenesis) — [Commit](https://github.com/CyanBukkit/BukkitGenesis/commit/9de3d55493b781f9303478e78405f836969b556d) / [Contributors](https://api.github.com/repos/CyanBukkit/BukkitGenesis/contributors)
 - [CyanBukkit/BungeeRejoin](https://github.com/CyanBukkit/BungeeRejoin) — [Commit](https://github.com/CyanBukkit/BungeeRejoin/commit/7d0762747b9545958fa62b5b20b40a80936714b5) / [Contributors](https://api.github.com/repos/CyanBukkit/BungeeRejoin/contributors)
 - [CyanBukkit/Bw1058-RushMode](https://github.com/CyanBukkit/Bw1058-RushMode) — [Commit](https://github.com/CyanBukkit/Bw1058-RushMode/commit/28dc6394eb2e4aeecda7f61e4ee8ace8c1390ee1) / [Contributors](https://api.github.com/repos/CyanBukkit/Bw1058-RushMode/contributors)
 - [CyanBukkit/CC-Next](https://github.com/CyanBukkit/CC-Next) — [Commit](https://github.com/CyanBukkit/CC-Next/commit/25867e495140eeb04fc6bcf645f5c2d5c297bade) / [Contributors](https://api.github.com/repos/CyanBukkit/CC-Next/contributors)
@@ -147,8 +144,8 @@
 - [CyanBukkit/CustomerBedWars](https://github.com/CyanBukkit/CustomerBedWars) — [Commit](https://github.com/CyanBukkit/CustomerBedWars/commit/0d333575d620e54915d23114f731e62e24df0d68) / [Contributors](https://api.github.com/repos/CyanBukkit/CustomerBedWars/contributors)
 - [CyanBukkit/CyanAnnounce](https://github.com/CyanBukkit/CyanAnnounce) — [Commit](https://github.com/CyanBukkit/CyanAnnounce/commit/1f1e7d06ccad69056265b593a1d9fb211be68c2f) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanAnnounce/contributors)
 - [CyanBukkit/CyanBukkit-MCP](https://github.com/CyanBukkit/CyanBukkit-MCP) — [Commit](https://github.com/CyanBukkit/CyanBukkit-MCP/commit/98f59330089887bdf996928a49933778dec2c963) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanBukkit-MCP/contributors)
-- [CyanBukkit/CyanBukkitOfficial](https://github.com/CyanBukkit/CyanBukkitOfficial) — [Commit](https://github.com/CyanBukkit/CyanBukkitOfficial/commit/83ae6cd689ac81ee88af8a38146bb407cfacbb30) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanBukkitOfficial/contributors)
 - [CyanBukkit/CyanChunkOreChange](https://github.com/CyanBukkit/CyanChunkOreChange) — [Commit](https://github.com/CyanBukkit/CyanChunkOreChange/commit/1e30f7634b819814e249ec07faef4f15431ae365) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanChunkOreChange/contributors)
+- [CyanBukkit/CyanFabricTemplate](https://github.com/CyanBukkit/CyanFabricTemplate) — [Commit](https://github.com/CyanBukkit/CyanFabricTemplate/commit/327fabb80481cc4eb0ae189e3826469c92f25a91) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanFabricTemplate/contributors)
 - [CyanBukkit/CyanFastBuilder](https://github.com/CyanBukkit/CyanFastBuilder) — [Commit](https://github.com/CyanBukkit/CyanFastBuilder/commit/3fbf71270549561504f5c2b0e26dd5691844a1ba) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanFastBuilder/contributors)
 - [CyanBukkit/CyanInvite](https://github.com/CyanBukkit/CyanInvite) — [Commit](https://github.com/CyanBukkit/CyanInvite/commit/ddc16572f3116c31b7787af85c92b3402e5ecde4) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanInvite/contributors)
 - [CyanBukkit/CyanItem](https://github.com/CyanBukkit/CyanItem) — [Commit](https://github.com/CyanBukkit/CyanItem/commit/28b6ee0bc0d96155650d1186a70396b11f3d7949) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanItem/contributors)
@@ -158,8 +155,6 @@
 - [CyanBukkit/CyanMurderMystery](https://github.com/CyanBukkit/CyanMurderMystery) — [Commit](https://github.com/CyanBukkit/CyanMurderMystery/commit/05eacd3cf4fca5c39342fd1f9db549d215fc8ac5) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanMurderMystery/contributors)
 - [CyanBukkit/CyanPoints](https://github.com/CyanBukkit/CyanPoints) — [Commit](https://github.com/CyanBukkit/CyanPoints/commit/792949201b8b3eb438082dfc7e9f7102a42346a1) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanPoints/contributors)
 - [CyanBukkit/CyanPractice](https://github.com/CyanBukkit/CyanPractice) — [Commit](https://github.com/CyanBukkit/CyanPractice/commit/3c9a9be824270a038c86b8e1e6384c903a6661ce) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanPractice/contributors)
-- [CyanBukkit/CyanShop&#95;Backend](https://github.com/CyanBukkit/CyanShop_Backend) — [Commit](https://github.com/CyanBukkit/CyanShop_Backend/commit/8702aaa1fa4ee31ef7eec07b21cca58a70de23fa) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanShop_Backend/contributors)
-- [CyanBukkit/CyanShop&#95;Frontend](https://github.com/CyanBukkit/CyanShop_Frontend) — [Commit](https://github.com/CyanBukkit/CyanShop_Frontend/commit/48aeaa9c3da1b3cda6a8592c0f161314042360fd) / [PR](https://github.com/CyanBukkit/CyanShop_Frontend/pull/1) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanShop_Frontend/contributors)
 - [CyanBukkit/CyanSpigotDraw](https://github.com/CyanBukkit/CyanSpigotDraw) — [Commit](https://github.com/CyanBukkit/CyanSpigotDraw/commit/94553d06664ad430e35ae8b767d02301de66031a) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanSpigotDraw/contributors)
 - [CyanBukkit/CyanTemplete4TraeAI](https://github.com/CyanBukkit/CyanTemplete4TraeAI) — [Commit](https://github.com/CyanBukkit/CyanTemplete4TraeAI/commit/4f235c5abc1a9eeb61759a879ab29b91ed099670) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanTemplete4TraeAI/contributors)
 - [CyanBukkit/Data2MySQL](https://github.com/CyanBukkit/Data2MySQL) — [Commit](https://github.com/CyanBukkit/Data2MySQL/commit/1d26f6486a8faa344837c5376aa9696c4d92c721) / [Contributors](https://api.github.com/repos/CyanBukkit/Data2MySQL/contributors)
@@ -167,7 +162,6 @@
 - [CyanBukkit/FastManagerWebSite4Linux](https://github.com/CyanBukkit/FastManagerWebSite4Linux) — [Commit](https://github.com/CyanBukkit/FastManagerWebSite4Linux/commit/995c663baa07f3a299d80705930616842b1c704c) / [Contributors](https://api.github.com/repos/CyanBukkit/FastManagerWebSite4Linux/contributors)
 - [CyanBukkit/FindClue](https://github.com/CyanBukkit/FindClue) — [Commit](https://github.com/CyanBukkit/FindClue/commit/ff9936373c4edd999a568ff00895dea9fffc64a5) / [Contributors](https://api.github.com/repos/CyanBukkit/FindClue/contributors)
 - [CyanBukkit/ForgeBukkitServerDownload](https://github.com/CyanBukkit/ForgeBukkitServerDownload) — [Commit](https://github.com/CyanBukkit/ForgeBukkitServerDownload/commit/bf9f8e0b919de9df6ceadd89c6e34ae8778fc2c7) / [Contributors](https://api.github.com/repos/CyanBukkit/ForgeBukkitServerDownload/contributors)
-- [CyanBukkit/FuckFabric](https://github.com/CyanBukkit/FuckFabric) — [Commit](https://github.com/CyanBukkit/FuckFabric/commit/327fabb80481cc4eb0ae189e3826469c92f25a91) / [Contributors](https://api.github.com/repos/CyanBukkit/FuckFabric/contributors)
 - [CyanBukkit/HypixelSpeedBuilders](https://github.com/CyanBukkit/HypixelSpeedBuilders) — [Commit](https://github.com/CyanBukkit/HypixelSpeedBuilders/commit/19ce8ab34a43777af7bf32a7f33f1598a7a9dcc8) / [Contributors](https://api.github.com/repos/CyanBukkit/HypixelSpeedBuilders/contributors)
 - [CyanBukkit/Instancebed](https://github.com/CyanBukkit/Instancebed) — [Commit](https://github.com/CyanBukkit/Instancebed/commit/159fa733bdb272871a542a4aa486b9b88f684d5f) / [Contributors](https://api.github.com/repos/CyanBukkit/Instancebed/contributors)
 - [CyanBukkit/LimitTNT](https://github.com/CyanBukkit/LimitTNT) — [Commit](https://github.com/CyanBukkit/LimitTNT/commit/3cfa0f300ab5c25a386e52fa73d2ad203fc7ea19) / [Contributors](https://api.github.com/repos/CyanBukkit/LimitTNT/contributors)
