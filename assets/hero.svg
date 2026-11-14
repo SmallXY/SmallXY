@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">六欲玄易 · SmallXY</title>
+  <desc id="desc">在代码、方块与现实之间。墨色、青玉与淡紫组成的个人主页封面。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1922"/><stop offset=".55" stop-color="#102832"/><stop offset="1" stop-color="#29233c"/></linearGradient>
+    <linearGradient id="jade"><stop stop-color="#a7eedd"/><stop offset="1" stop-color="#d5c5f5"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#79cbb8" stop-opacity=".12"/><stop offset="1" stop-color="#79cbb8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#8cb8b6" opacity=".15"/></pattern>
+  </defs>
+  <rect width="1000" height="340" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="338" rx="19" fill="url(#grid)" stroke="#3a4b58"/>
+  <circle cx="788" cy="158" r="226" fill="url(#glow)"/>
+  <path d="M36 60V36h24M940 36h24v24M36 280v24h24M940 304h24v-24" fill="none" stroke="#6a8e92" stroke-width="1"/>
+  <g font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <circle cx="64" cy="63" r="3" fill="#a9e4cd"/>
+    <text x="78" y="67" font-size="11" fill="#abc6c8" letter-spacing="3">THE SMALLXY UNIVERSE</text>
+    <text x="55" y="178" font-family="Noto Serif SC, Songti SC, STSong, SimSun, serif" font-size="86" font-weight="500" letter-spacing="9" fill="url(#jade)">六欲玄易</text>
+    <text x="61" y="213" font-size="16" fill="#c6dce0" letter-spacing="1">在代码、方块与现实之间</text>
+    <text x="62" y="251" font-size="11" fill="#92acb7" letter-spacing="2.3">MINECRAFT / ARTIFICIAL INTELLIGENCE / XR</text>
+    <path d="M61 279h427" stroke="#37505b"/>
+    <text x="61" y="300" font-size="10" fill="#8ca6b2" letter-spacing="2">CURIOUS MIND. PLAYFUL CODE.</text>
+    <text x="488" y="300" font-size="10" fill="#b2d9ce" text-anchor="end">SmallXY</text>
+  </g>
+  <g transform="translate(792 160)" fill="none">
+    <circle r="130" stroke="#7893a2" stroke-opacity=".28"/>
+    <circle r="108" stroke="#85caba" stroke-opacity=".25" stroke-dasharray="2 9"/>
+    <circle r="79" stroke="#c3afd8" stroke-opacity=".4"/>
+    <ellipse rx="145" ry="51" transform="rotate(-33)" stroke="#a1dbce" stroke-opacity=".5"/>
+    <ellipse rx="120" ry="48" transform="rotate(54)" stroke="#bca2df" stroke-opacity=".45"/>
+    <path d="M0-57 50-29 50 29 0 58-50 29-50-29Z" fill="#17373d" fill-opacity=".9" stroke="#8dc1b4"/>
+    <path d="M0-57V0L50 29M0 0-50 29M0 0 50-29M0 0-50-29M0 0V58" stroke="#8dc1b4" stroke-opacity=".2"/>
+    <path d="M-22-85h44M-16 86h32" stroke="#aacfc6" stroke-width="2"/>
+    <circle cx="-113" cy="-64" r="5" fill="#b7e9d9" stroke="#244d50" stroke-width="5"/>
+    <circle cx="112" cy="65" r="5" fill="#d3c0ef" stroke="#49405e" stroke-width="5"/>
+    <circle cy="-130" r="3" fill="#e6d3ae"/>
+    <circle cy="130" r="3" fill="#b7e9d9"/>
+    <circle cx="113" cy="-64" r="3" fill="#a9c9df"/>
+    <circle cx="-113" cy="64" r="3" fill="#cdb9e5"/>
+    <text y="15" text-anchor="middle" font-size="40" fill="#cfede4" font-family="Noto Serif SC, SimSun, serif">玄</text>
+  </g>
+  <text x="792" y="319" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="9" fill="#9db1bd" letter-spacing="3">IDEAS INTO WORLDS</text>
+</svg>

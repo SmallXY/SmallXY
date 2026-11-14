@@ -1,0 +1,50 @@
+name: Refresh profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'README.md'
+      - 'assets/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test update logic
+        run: python -m unittest discover -s tests -v
+      - name: Fetch public data and render cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+      - name: Validate generated profile
+        run: python scripts/update_profile.py --check
+      - name: Commit only generated files
+        run: |
+          git add README.md assets/generated docs/profile-data.json
+          if git diff --cached --quiet; then
+            echo 'No profile changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh public profile data'
+          git push

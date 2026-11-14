@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="48" viewBox="0 0 1000 48" role="img" aria-labelledby="title">
+  <title id="title">SmallXY · 保持好奇，继续创造</title>
+  <defs><linearGradient id="line" gradientUnits="userSpaceOnUse" x1="0" x2="1000"><stop stop-color="#75cbb7" stop-opacity="0"/><stop offset=".4" stop-color="#75cbb7"/><stop offset=".6" stop-color="#b79cd6"/><stop offset="1" stop-color="#b79cd6" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 24h464m72 0h464" stroke="url(#line)"/>
+  <path d="m500 8 14 8v16l-14 8-14-8V16Z" fill="none" stroke="#8dbdab"/>
+  <circle cx="500" cy="24" r="3" fill="#b9a4d5"/>
+</svg>
