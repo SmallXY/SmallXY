@@ -28,4 +28,13 @@
 
 ## 发布后验证
 
-待推送修复并完成认证刷新后记录实际结果；本段尚不代表新统计已发布。
+- 修复提交 823e36d 已推送 main；[工作流 43579661387](https://github.com/SmallXY/SmallXY/actions/runs/43579661387) 实际执行 success，测试、采集、生成校验、自动提交推送全部成功。
+- 自动生成提交 33049a5 已拉取并再次 --check 通过，数据时间为 2026-11-14 09:15:32 UTC。
+- 当前统计：个人非 Fork 仓库 11；参与外部仓库 61（原 64）；主要贡献组织项目 56（原 59）；作品 Star 33。被移除的参与记录净减少三个；登录对接仓库此前就不属于 SmallXY 的主要贡献项目。
+- qianniu-cli-macos 已归档，离开热门榜但仍按原口径计入总 Star；PriceTemplete 仍公开未归档，保留在 GitHub 榜单，因此 Star 总数没有减少。当前前四为 purpur-config-cnnotes、PriceTemplete、AVMWandMod、CyanTemplete4TraeAI。
+- README 中四个删除项目的旧 GitHub 链接与两个改名前的链接全部消失，改名后的 BukkitGenesis、CyanFabricTemplate 正常出现；六个 Gitee 项目入口完整保留。
+- 六个 Gitee URL 使用禁用凭据助手的匿名 git ls-remote 验证，全部成功返回 HEAD。
+- 线上 GitHub 1440px 与 390px 均 HTTP 200，8 张图片解码成功、响应式图片切换正确、两个折叠区可打开、页面无水平溢出、六个 Gitee 项目链接存在。已检查实际窄屏截图中的新榜单和迁移区。
+- 本地直连 GitHub 网页一度超时；使用本机 Git 已配置的代理完成线上验收，没有改动系统代理或仓库工作流配置。
+
+本次删仓、改名、归档和 Gitee 入口更新的全部关键验收通过。
