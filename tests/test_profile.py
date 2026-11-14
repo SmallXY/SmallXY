@@ -3,6 +3,7 @@ import sys
 import unittest
 from pathlib import Path
 from unittest.mock import Mock, patch
+from urllib.error import HTTPError
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -76,16 +77,49 @@ class ProfileTests(unittest.TestCase):
 
     def test_collection_deduplicates_external_evidence(self):
         api = Mock()
-        api.get.return_value = {'created_at': '2020-03-17T00:00:00Z'}
+        api.get.side_effect = [{'created_at': '2020-03-17T00:00:00Z'}, repo('Other/fork', fork=True)]
         api.pages.side_effect = [[repo()], [{'login': 'Org'}], [repo('Org/project', scope='organization')],
                                  [{'login': 'SmallXY', 'contributions': 8}]]
-        api.search.side_effect = [[{'repository': {'full_name': 'Org/project', 'fork': False}, 'html_url': 'https://github.com/Org/project/commit/one'},
-                                  {'repository': {'full_name': 'Org/project', 'fork': False}, 'html_url': 'https://github.com/Org/project/commit/two'},
-                                  {'repository': {'full_name': 'Other/fork', 'fork': True}, 'html_url': 'https://github.com/Other/fork/commit/a'}],
-                                 [{'repository_url': p.API + '/repos/Org/project', 'html_url': 'https://github.com/Org/project/pull/1'}]]
+        api.search.side_effect = [[{'repository': {'full_name': 'Org/project', 'fork': False}, 'sha': 'one'},
+                                  {'repository': {'full_name': 'Org/project', 'fork': False}, 'sha': 'two'},
+                                  {'repository': {'full_name': 'Other/fork', 'fork': True}, 'sha': 'a'}],
+                                 [{'repository_url': p.API + '/repos/Org/project', 'number': 1}]]
         data = p.collect(api)
         self.assertEqual(len(data['external_contribution_evidence']), 1)
         self.assertTrue(all(data['external_contribution_evidence']['Org/project'].values()))
+
+    def test_deleted_renamed_private_and_transferred_repositories(self):
+        api = Mock()
+        responses = {'Org/deleted': None, 'Org/old': repo('Org/new'),
+                     'Org/private': repo('Org/private', private=True),
+                     'Org/transferred': repo('SmallXY/mine')}
+        api.get.side_effect = lambda path, **kw: responses[path.removeprefix('/repos/')]
+        commits = [{'repository': {'full_name': name}, 'sha': 'abc'} for name in responses]
+        prs = [{'repository_url': p.API + '/repos/Org/deleted', 'number': 1},
+               {'repository_url': p.API + '/repos/Org/old', 'number': 2}]
+        known = repo('Org/new', scope='organization', lead=True)
+        result = p.contribution_evidence(api, commits, prs, [known])
+        self.assertEqual(list(result), ['Org/new'])
+        self.assertEqual(result['Org/new']['commit'], 'https://github.com/Org/new/commit/abc')
+        self.assertEqual(result['Org/new']['pr'], 'https://github.com/Org/new/pull/2')
+        self.assertEqual(api.get.call_count, 4)
+
+    def test_missing_is_not_permission_error(self):
+        for status in (404, 410):
+            api = p.GitHub()
+            with patch.object(p, 'urlopen', side_effect=HTTPError('url', status, 'missing', {}, None)):
+                self.assertIsNone(api.get('/repos/Org/deleted', missing_ok=True))
+                with self.assertRaises(RuntimeError):
+                    api.get('/repos/Org/deleted')
+        with patch.object(p, 'urlopen', side_effect=HTTPError('url', 403, 'limited', {}, None)), patch.object(p.time, 'sleep'):
+            with self.assertRaises(RuntimeError):
+                p.GitHub().get('/repos/Org/existing', missing_ok=True)
+
+    def test_lookup_failure_does_not_silently_remove_evidence(self):
+        api = Mock()
+        api.get.side_effect = RuntimeError('rate limit')
+        with self.assertRaises(RuntimeError):
+            p.contribution_evidence(api, [{'repository': {'full_name': 'Org/project'}, 'sha': 'a'}], [], [])
 
     def test_xml_escaping_long_descriptions_and_empty_data(self):
         value = repo(description='<script>alert("x")</script> & ' + '非常长的描述' * 100)

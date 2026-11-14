@@ -16,6 +16,7 @@
 <p align="center">
   <a href="https://github.com/CyanBukkit">CyanBukkit</a> ·
   <a href="https://github.com/OpenMCSMG">OpenMCSMG</a> ·
+  <a href="https://gitee.com/cyanbukkit">Gitee</a> ·
   <a href="https://www.cyanbukkit.cn">个人网站</a> ·
   <a href="https://space.bilibili.com/60051886">Bilibili</a>
 </p>
@@ -203,6 +204,17 @@
 
 <sub>GitHub 起点：2020-03-17 · 公开组织：CyanBukkit / OpenMCSMG · [数据快照](docs/profile-data.json) · [更新方式](docs/profile.md)</sub>
 <!-- PROFILE:END -->
+
+## 04 / 换个地方，继续创造
+
+这些项目已迁移到 **[Gitee / CyanBukkit](https://gitee.com/cyanbukkit)**。GitHub 榜单只统计当前仍公开可见的仓库；迁移入口不重复计入上方数量或 Star。
+
+- [CyanShop_Backend](https://gitee.com/cyanbukkit/CyanShop_Backend) / 网店后端服务
+- [CyanShop_Frontend](https://gitee.com/cyanbukkit/CyanShop_Frontend) / 网店前端
+- [CyanBukkitOfficial](https://gitee.com/cyanbukkit/CyanBukkitOfficial) / 官网介绍页
+- [PriceTemplete](https://gitee.com/cyanbukkit/PriceTemplete) / 定价模板
+- [qianniu-cli-macos](https://gitee.com/cyanbukkit/qianniu-cli-macos) / 千牛智能客服
+- [Cyanbukkit_api_microsoft](https://gitee.com/cyanbukkit/Cyanbukkit_api_microsoft) / 服务器登录对接
 
 ---
 

@@ -36,11 +36,14 @@ class GitHub:
         self.cache = Path(cache) if cache else None
         self.token = os.environ.get('GITHUB_TOKEN')
 
-    def get(self, path, **params):
+    def get(self, path, *, missing_ok=False, **params):
         url = API + path + ('?' + urlencode(params) if params else '')
         cached = self.cache / (hashlib.sha256(url.encode()).hexdigest() + '.json') if self.cache else None
         if cached and cached.exists():
-            return json.loads(cached.read_text(encoding='utf-8'))
+            data = json.loads(cached.read_text(encoding='utf-8'))
+            if data is None and not missing_ok:
+                raise RuntimeError(f'GitHub repository unavailable: {path}')
+            return data
         headers = {'User-Agent': 'SmallXY-profile', 'Accept': 'application/vnd.github+json',
                    'X-GitHub-Api-Version': '2022-11-28'}
         if self.token:
@@ -53,6 +56,10 @@ class GitHub:
                     write(cached, json.dumps(data, ensure_ascii=False) + '\n')
                 return data
             except HTTPError as exc:
+                if exc.code in (404, 410) and missing_ok:
+                    if cached:
+                        write(cached, 'null\n')
+                    return None
                 if exc.code in (403, 429) and attempt < 2:
                     retry = exc.headers.get('Retry-After')
                     reset = exc.headers.get('X-RateLimit-Reset')
@@ -113,6 +120,38 @@ def contribution(contributors):
             'tied': mine > 0 and mine == highest and len(leaders) > 1, 'leaders': leaders}
 
 
+def contribution_evidence(api, commits, prs, org_repos):
+    # Search indexing can lag behind deletion, renaming or visibility changes.
+    # Known organization repositories come from this refresh's public inventory;
+    # other search results must resolve to a current public repository first.
+    resolved = {r['full_name'].lower(): r for r in org_repos}
+
+    def current(name):
+        key = name.lower()
+        if key not in resolved:
+            resolved[key] = api.get('/repos/' + name, missing_ok=True)
+        repo = resolved[key]
+        if not repo or repo.get('private') or repo['full_name'].split('/')[0].lower() == USER.lower():
+            return None
+        return repo
+
+    evidence = {}
+    for kind, items in [('commit', commits), ('pr', prs)]:
+        for item in items:
+            name = item['repository']['full_name'] if kind == 'commit' else item['repository_url'].removeprefix(API + '/repos/')
+            repo = current(name)
+            if not repo or (kind == 'commit' and repo.get('fork')):
+                continue
+            canonical = repo['full_name']
+            suffix = '/commit/' + item['sha'] if kind == 'commit' else '/pull/' + str(item['number'])
+            evidence.setdefault(canonical, {'commit': None, 'pr': None, 'contributors': None})[kind] = repo['html_url'] + suffix
+    for repo in org_repos:
+        if repo['contribution']['commits']:
+            name = repo['full_name']
+            evidence.setdefault(name, {'commit': None, 'pr': None, 'contributors': None})['contributors'] = API + '/repos/' + name + '/contributors'
+    return dict(sorted(evidence.items()))
+
+
 def collect(api):
     user = api.get('/users/' + USER)
     own = [compact(r, 'personal') for r in api.pages('/users/' + USER + '/repos', type='owner') if not r.get('private')]
@@ -128,23 +167,11 @@ def collect(api):
             org_repos.append(repo)
     commits = api.search('commits', f'author:{USER} -user:{USER}')
     prs = api.search('issues', f'author:{USER} is:pr is:public -user:{USER}')
-    evidence = {}
-    for item in commits:
-        repo = item['repository']
-        if repo.get('private') or repo.get('fork'):
-            continue
-        evidence.setdefault(repo['full_name'], {'commit': None, 'pr': None, 'contributors': None})['commit'] = item['html_url']
-    for item in prs:
-        name = item['repository_url'].removeprefix(API + '/repos/')
-        evidence.setdefault(name, {'commit': None, 'pr': None, 'contributors': None})['pr'] = item['html_url']
-    for repo in org_repos:
-        if repo['contribution']['commits']:
-            name = repo['full_name']
-            evidence.setdefault(name, {'commit': None, 'pr': None, 'contributors': None})['contributors'] = API + '/repos/' + name + '/contributors'
+    evidence = contribution_evidence(api, commits, prs, org_repos)
     return {'schema_version': 1, 'updated_at': datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00', 'Z'),
             'account_created_at': user['created_at'], 'public_organizations': orgs,
             'personal_repositories': own, 'organization_repositories': org_repos,
-            'external_contribution_evidence': dict(sorted(evidence.items())),
+            'external_contribution_evidence': evidence,
             'search_totals': {'external_indexed_commits': len(commits), 'external_public_prs': len(prs)}}
 
 
