@@ -27,10 +27,10 @@
 <!-- Generated from public GitHub API data. Do not edit this section by hand. -->
 <picture>
   <source media="(max-width: 600px)" srcset="assets/generated/stats-mobile.svg">
-  <img src="assets/generated/stats.svg" width="100%" alt="个人非 Fork 仓库：11；参与外部仓库：42；主要贡献组织项目：36；作品获星：41">
+  <img src="assets/generated/stats.svg" width="100%" alt="个人非 Fork 仓库：11；参与外部仓库：43；主要贡献组织项目：36；作品获星：41">
 </picture>
 
-<sub>数据更新于 2026-11-16 06:49:22 UTC · 仅公开数据 · [统计口径](docs/profile.md#统计口径)</sub>
+<sub>数据更新于 2026-11-17 08:09:01 UTC · 仅公开数据 · [统计口径](docs/profile.md#统计口径)</sub>
 
 ## 01 / 被星光选中的作品
 
@@ -131,6 +131,7 @@
 - [CyanBukkit/ForgeBukkitServerDownload](https://github.com/CyanBukkit/ForgeBukkitServerDownload) — [Commit](https://github.com/CyanBukkit/ForgeBukkitServerDownload/commit/bf9f8e0b919de9df6ceadd89c6e34ae8778fc2c7) / [Contributors](https://api.github.com/repos/CyanBukkit/ForgeBukkitServerDownload/contributors)
 - [CyanBukkit/NukkitPluginTemplete](https://github.com/CyanBukkit/NukkitPluginTemplete) — [Commit](https://github.com/CyanBukkit/NukkitPluginTemplete/commit/fab59973bef192b1b2a304fd247b7d536a5258ab) / [Contributors](https://api.github.com/repos/CyanBukkit/NukkitPluginTemplete/contributors)
 - [CyanBukkit/PicoXR-Doc-MCP](https://github.com/CyanBukkit/PicoXR-Doc-MCP) — [Commit](https://github.com/CyanBukkit/PicoXR-Doc-MCP/commit/58b4a378a84fcc79ad444e5fb2b59bec113d3773) / [Contributors](https://api.github.com/repos/CyanBukkit/PicoXR-Doc-MCP/contributors)
+- [CyanBukkit/ZhouYiFish](https://github.com/CyanBukkit/ZhouYiFish) — [PR](https://github.com/CyanBukkit/ZhouYiFish/pull/4)
 - [CyanBukkit/mcMMo](https://github.com/CyanBukkit/mcMMo) — [Commit](https://github.com/CyanBukkit/mcMMo/commit/49586f92a674848d7650b364c0f8e6397f8f9dab) / [Contributors](https://api.github.com/repos/CyanBukkit/mcMMo/contributors)
 - [CyanBukkit/minecraft-animation](https://github.com/CyanBukkit/minecraft-animation) — [Commit](https://github.com/CyanBukkit/minecraft-animation/commit/cdae76be757e70081a5c1819b97fc3e1551aa2b9) / [Contributors](https://api.github.com/repos/CyanBukkit/minecraft-animation/contributors)
 - [CyanBukkit/qianniu-cli-macos](https://github.com/CyanBukkit/qianniu-cli-macos) — [Commit](https://github.com/CyanBukkit/qianniu-cli-macos/commit/7c967e3a4d2daba19397b47986decd5da444cd47) / [Contributors](https://api.github.com/repos/CyanBukkit/qianniu-cli-macos/contributors)
