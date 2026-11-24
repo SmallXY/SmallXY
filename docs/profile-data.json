@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:53:58Z",
+  "updated_at": "2026-11-24T10:06:57Z",
   "account_created_at": "2020-03-17T08:05:35Z",
   "public_organizations": [
     "CyanBukkit",
@@ -339,7 +339,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2023-01-05T09:02:08Z",
-      "pushed_at": "2026-11-22T07:07:01Z",
+      "pushed_at": "2026-11-23T07:53:59Z",
       "language": "Python",
       "scope": "personal"
     },
@@ -912,6 +912,27 @@
         "tied": false,
         "leaders": [
           "SmallXY"
+        ]
+      }
+    },
+    {
+      "full_name": "CyanBukkit/CyanDesk",
+      "html_url": "https://github.com/CyanBukkit/CyanDesk",
+      "description": "opencaource",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "created_at": "2026-11-23T08:03:14Z",
+      "pushed_at": "2026-11-23T08:15:52Z",
+      "language": "Go",
+      "scope": "organization",
+      "contribution": {
+        "commits": 0,
+        "top_commits": 12,
+        "is_lead": false,
+        "tied": false,
+        "leaders": [
+          "cursoragent"
         ]
       }
     },
