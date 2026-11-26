@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:51:46Z",
+  "updated_at": "2026-11-26T08:37:57Z",
   "account_created_at": "2020-03-17T08:05:35Z",
   "public_organizations": [
     "CyanBukkit",
@@ -272,6 +272,18 @@
       "scope": "personal"
     },
     {
+      "full_name": "SmallXY/photocraft",
+      "html_url": "https://github.com/SmallXY/photocraft",
+      "description": "PhotoCraft: An open-source photo editor written from scratch in pure Rust llovu",
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "created_at": "2026-11-26T03:18:34Z",
+      "pushed_at": "2026-11-26T02:22:11Z",
+      "language": null,
+      "scope": "personal"
+    },
+    {
       "full_name": "SmallXY/PlotSquared",
       "html_url": "https://github.com/SmallXY/PlotSquared",
       "description": "PlotSquared - Reinventing the plotworld",
@@ -339,7 +351,7 @@
       "fork": false,
       "archived": false,
       "created_at": "2023-01-05T09:02:08Z",
-      "pushed_at": "2026-11-24T10:06:58Z",
+      "pushed_at": "2026-11-25T08:51:47Z",
       "language": "Python",
       "scope": "personal"
     },
@@ -923,16 +935,16 @@
       "fork": false,
       "archived": false,
       "created_at": "2026-11-23T08:03:14Z",
-      "pushed_at": "2026-11-25T07:38:40Z",
-      "language": "Go",
+      "pushed_at": "2026-11-26T07:42:56Z",
+      "language": "C++",
       "scope": "organization",
       "contribution": {
-        "commits": 0,
-        "top_commits": 12,
+        "commits": 22,
+        "top_commits": 708,
         "is_lead": false,
         "tied": false,
         "leaders": [
-          "cursoragent"
+          "kunkundi"
         ]
       }
     },
@@ -1277,6 +1289,11 @@
       "pr": null,
       "contributors": "https://api.github.com/repos/CyanBukkit/CyanBukkit-MCP/contributors"
     },
+    "CyanBukkit/CyanDesk": {
+      "commit": "https://github.com/CyanBukkit/CyanDesk/commit/73fcbea33efb894954a7cda222baf81a4770e3ef",
+      "pr": null,
+      "contributors": "https://api.github.com/repos/CyanBukkit/CyanDesk/contributors"
+    },
     "CyanBukkit/CyanFabricTemplate": {
       "commit": "https://github.com/CyanBukkit/CyanFabricTemplate/commit/327fabb80481cc4eb0ae189e3826469c92f25a91",
       "pr": null,
@@ -1449,7 +1466,7 @@
     }
   },
   "search_totals": {
-    "external_indexed_commits": 274,
+    "external_indexed_commits": 296,
     "external_public_prs": 6
   }
 }
