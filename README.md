@@ -30,7 +30,7 @@
   <img src="assets/generated/stats.svg" width="100%" alt="个人非 Fork 仓库：11；参与外部仓库：44；主要贡献组织项目：36；作品获星：41">
 </picture>
 
-<sub>数据更新于 2026-11-26 08:37:57 UTC · 仅公开数据 · [统计口径](docs/profile.md#统计口径)</sub>
+<sub>数据更新于 2026-11-28 08:05:56 UTC · 仅公开数据 · [统计口径](docs/profile.md#统计口径)</sub>
 
 ## 01 / 被星光选中的作品
 
@@ -121,7 +121,7 @@
 - [CyanBukkit/Codex-CTX-Guard](https://github.com/CyanBukkit/Codex-CTX-Guard) — [Commit](https://github.com/CyanBukkit/Codex-CTX-Guard/commit/81162aa55f0e83c93278ef8bd724276379ac1b1d) / [Contributors](https://api.github.com/repos/CyanBukkit/Codex-CTX-Guard/contributors)
 - [CyanBukkit/CustomerBedWars](https://github.com/CyanBukkit/CustomerBedWars) — [Commit](https://github.com/CyanBukkit/CustomerBedWars/commit/0d333575d620e54915d23114f731e62e24df0d68) / [Contributors](https://api.github.com/repos/CyanBukkit/CustomerBedWars/contributors)
 - [CyanBukkit/CyanBukkit-MCP](https://github.com/CyanBukkit/CyanBukkit-MCP) — [Commit](https://github.com/CyanBukkit/CyanBukkit-MCP/commit/98f59330089887bdf996928a49933778dec2c963) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanBukkit-MCP/contributors)
-- [CyanBukkit/CyanDesk](https://github.com/CyanBukkit/CyanDesk) — [Commit](https://github.com/CyanBukkit/CyanDesk/commit/73fcbea33efb894954a7cda222baf81a4770e3ef) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanDesk/contributors)
+- [CyanBukkit/CyanDesk](https://github.com/CyanBukkit/CyanDesk) — [Commit](https://github.com/CyanBukkit/CyanDesk/commit/34a507218a24429da1c1cd5a50689526ccc8ca75) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanDesk/contributors)
 - [CyanBukkit/CyanFabricTemplate](https://github.com/CyanBukkit/CyanFabricTemplate) — [Commit](https://github.com/CyanBukkit/CyanFabricTemplate/commit/327fabb80481cc4eb0ae189e3826469c92f25a91) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanFabricTemplate/contributors)
 - [CyanBukkit/CyanInvite](https://github.com/CyanBukkit/CyanInvite) — [Commit](https://github.com/CyanBukkit/CyanInvite/commit/ddc16572f3116c31b7787af85c92b3402e5ecde4) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanInvite/contributors)
 - [CyanBukkit/CyanMVPluginTemplate](https://github.com/CyanBukkit/CyanMVPluginTemplate) — [Commit](https://github.com/CyanBukkit/CyanMVPluginTemplate/commit/e7940be10a191e0da81c7d90f8ceeaac02cef17c) / [Contributors](https://api.github.com/repos/CyanBukkit/CyanMVPluginTemplate/contributors)
@@ -155,7 +155,7 @@
 - [OpenMCSMG/SiModule-Templete](https://github.com/OpenMCSMG/SiModule-Templete) — [Commit](https://github.com/OpenMCSMG/SiModule-Templete/commit/07a6066bc09d2c335c1cd100f345b151c0526ff7) / [Contributors](https://api.github.com/repos/OpenMCSMG/SiModule-Templete/contributors)
 - [OpenMCSMG/SiModuleGame-Bukkit](https://github.com/OpenMCSMG/SiModuleGame-Bukkit) — [Commit](https://github.com/OpenMCSMG/SiModuleGame-Bukkit/commit/9de1aa8f518d26ebbab78d5a370e0f4d2ff71cc1) / [Contributors](https://api.github.com/repos/OpenMCSMG/SiModuleGame-Bukkit/contributors)
 - [WaiGameStudio/.github](https://github.com/WaiGameStudio/.github) — [Commit](https://github.com/WaiGameStudio/.github/commit/e9043e513e09b141588c23d32879cd45abe1bb08)
-- [WaiGameStudio/GadgetsMenu](https://github.com/WaiGameStudio/GadgetsMenu) — [Commit](https://github.com/WaiGameStudio/GadgetsMenu/commit/7bc045d21ebe95f6e45b15bb49f93f92090fcbb8)
+- [WaiGameStudio/GadgetsMenu](https://github.com/WaiGameStudio/GadgetsMenu) — [Commit](https://github.com/WaiGameStudio/GadgetsMenu/commit/2c9f3abd8d72eef8ed62443bf78d591ac7cfccf8)
 
 </details>
 
